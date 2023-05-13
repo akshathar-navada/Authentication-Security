@@ -15,7 +15,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 
 mongoose.connect(
-  "mongodb+srv://akshatharnavada:anvitha@cluster0.xhvbb9u.mongodb.net/userDB?retryWrites=true&w=majority"
+  "mongodb+srv://akshatharnavada:<password>@cluster0.xhvbb9u.mongodb.net/userDB?retryWrites=true&w=majority"
 );
 
 const userSchema = new mongoose.Schema({
